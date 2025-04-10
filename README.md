@@ -71,7 +71,7 @@ Three supervised learning models are implemented:
    - Create Trading Signals.
 2. **Backtest Trading Strategy:**
    - Backtest Trading signals performance with vectorbt.
-   - Observe trading journals to evaluate trading performance.
+   - Observe trading journals to evaluate trading history & performance.
      
 3. **Feature Engineering:**
    - Incorporate trading journal (Trading History)
