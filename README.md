@@ -29,17 +29,17 @@ The dataset consists of **historical data**,**technical indicators**,**input fea
 
 ### **🧩 Input Features:**
 
--  **Compare the distance between the entry point and the short-term Moving Average at the entry points** ( Expressed as a percentage change )  
+-  **Compare the distance between the entry point and the short-term Moving Average at the entry points** (Expressed as a percentage change)  
 
--  **Compare the distance between the entry point and the long-term Moving Average at the entry points** ( Expressed as a percentage change )  
+-  **Compare the distance between the entry point and the long-term Moving Average at the entry points** (Expressed as a percentage change)  
 
--  **Compare the distance between the exit point and the short-term Moving Average at the exit point** ( Expressed as a percentage change )  
+-  **Compare the distance between the exit point and the short-term Moving Average at the exit point** (Expressed as a percentage change)  
 
--  **Compare the distance between the exit point and the long-term Moving Average at the exit point** ( Expressed as a percentage change )
+-  **Compare the distance between the exit point and the long-term Moving Average at the exit point** (Expressed as a percentage change)
 
--  **Compare the distance between the exit point and the short-term Moving Average at the entry point** ( Expressed as a percentage change )
+-  **Compare the distance between the exit point and the short-term Moving Average at the entry point** (Expressed as a percentage change)
 
--  **Compare the distance between the exit point and the long-term Moving Average at the entry point** ( Expressed as a percentage change )
+-  **Compare the distance between the exit point and the long-term Moving Average at the entry point** (Expressed as a percentage change)
   
      
 ### **🎯 Target Variable:**
