@@ -5,7 +5,6 @@ This project applies **Machine Learning (ML)** to **False Signal Detection** in 
 
 - **Decision Tree**
 - **Random Forest**
-- **Naïve Bayes**
 
 The system learns from **historical trading signals**, **technical indicators**, and their **trade outcomes (profit/loss)** to detect unreliable signals that frequently lead to losses.
 
@@ -33,14 +32,11 @@ The dataset consists of **historical data**,**technical indicators**,**input fea
 
 -  **Compare the distance between the entry point and the long-term Moving Average at the entry points** ( Expressed as a percentage change )  
 
--  **Compare the distance between the exit point and the short-term Moving Average at the exit point** ( Expressed as a percentage change )  
+-  **Short-term Moving Average**  at the entry points
 
--  **Compare the distance between the exit point and the long-term Moving Average at the exit point** ( Expressed as a percentage change )
+-  **Long-term Moving Average**  at the entry points
 
--  **Compare the distance between the exit point and the short-term Moving Average at the entry point** ( Expressed as a percentage change)
-
--  **Compare the distance between the exit point and the long-term Moving Average at the entry point** ( Expressed as a percentage change)
-  
+- **Entry Price**
      
 ### **🎯 Target Variable:**
 - **Profit/Loss Classification:** Binary output (Win ✅ or Loss ❌)
@@ -57,10 +53,6 @@ Three supervised learning models are implemented:
 ### **🌲 Random Forest**
 - An ensemble of Decision Trees to reduce overfitting.
 - Improves accuracy and generalization.
-
-### **🧮 Naïve Bayes**
-- Probabilistic classifier.
-- Based on Conditional Probability.
 
 ---
 
@@ -83,7 +75,7 @@ Three supervised learning models are implemented:
    - Use the DecisionTree model to identify parameters that yield the highest Precision and F1 Score, respectively. These parameters are used to improve trading quality by using machine learning to filter profit/loss buy points and the corresponding sell points, based on historical data (excluding unseen data).
 
 6. **Model Creation:**
-   - Train DecisionTree, RandomForest, and NaïveBayes models with training set.
+   - Train DecisionTree and RandomForest models with training set.
    - Assume that every model can detect profit and loss, and is ready to predict on unseen data.
      
 7. **Fowardtest with unseen data ( test set ) :**
