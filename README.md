@@ -1,13 +1,30 @@
 # 📌 Machine Learning for False Signal Detection in Trading
 
+<br>
+
+<br>
+
+## ⚡️Trading Signals
+
+We apply a **Moving Average Crossover** signals, entering a **buy position when the short-term moving average crosses above the long-term moving average**, signaling upward momentum. The position is closed with a **take profit at a 6% gain** or a **stop loss at a 1.5% decline from the entry price.** This approach emphasizes **Money** and **Risk Management** by defining clear profit targets and limiting downside risk.
+
 ## 📖 Overview
-This project applies **Machine Learning (ML)** to **False Signal Detection** in trading. The goal is to enhance the **win rate** of a trading system by identifying **ineffective trade signals**. By leveraging **supervised learning** with models such as:
+This project applies **Machine Learning (ML)** to **False Signal Detection** in trading by use moving average cross over strategy. The goal is to enhance the **win rate** of a trading system by identifying **ineffective trade signals**. By leveraging **supervised learning** with models such as:
 
 - **Decision Tree**
 - **Random Forest**
 
 The system learns from **historical trading signals**, **technical indicators**, and their **trade outcomes (profit/loss)** to detect unreliable signals that frequently lead to losses.
 
+---
+
+## 💲Money & Risk Management
+
+- **Trading Direction :** Long Bias 
+- **Risk Reward Ratio :** 4 : 1 
+- **Take Profit :** 6 %  Above Entry Points
+- **Stop Loss :** 1.5 % Under Entry Points 
+  
 ---
 
 ## 🎯 Objective
@@ -84,7 +101,7 @@ Three supervised learning models are implemented:
    - Develop rules to filter out unreliable trade signals from machine learning models.
      
 9. **Trading Performance Evaluation:**
-   - Evaluate the trading performance on unseen data using technical indicators, decision tree, random forest, and naive bayes, and compare the results with the buy & hold strategy and benchmark.
+   - Evaluate the trading performance on unseen data using technical indicators, decision tree and random forest and compare the results with the buy & hold strategy and benchmark.
 
 ---
 
